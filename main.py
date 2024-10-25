@@ -18,7 +18,8 @@ def main():
     initialize_csv_file()
 
     for i in range(0, 1):
-        TAX_CODE = "0317254701"
+        # TAX_CODE = "0317254701"
+        TAX_CODE = "0110825275yy"
 
         input_search(driver, TAX_CODE)
         
